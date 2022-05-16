@@ -32,7 +32,7 @@
     <link rel="apple-touch-icon-precomposed" href="{{asset('images/ico/apple-touch-icon-57-precomposed.png')}}">
 </head>
 <!--/head-->
-<body id="home" class="homepage">
+<body id="home" class="homepage ">
 
 @include('Required/header')
 @yield('contents')

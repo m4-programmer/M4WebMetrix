@@ -1,4 +1,12 @@
 {{--Start of Portfolio--}}
+<style type="text/css">
+    .portfolio-item-inner img{
+        width:483px; 
+        height:238px
+
+    }
+</style>
+<div class="container-fluid" style="background-color: #f5f5f5">
 <section id="portfolio">
     <div class="container">
         <div class="section-header">
@@ -22,23 +30,24 @@
         <div class="portfolio-items isotope" style="position: relative; overflow: hidden; height: 408px;">
             <div class="portfolio-item creative isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); opacity: 1;">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
+                    <img class="img-responsive" src="images/impact-africa-summit-website-design-home-page-scaled.jpg" alt=""  >
                     <div class="portfolio-info">
                         <h3>Portfolio Item 1</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
+
             </div>
             <!--/.portfolio-item-->
 
             <div class="portfolio-item corporate portfolio isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(291px, 0px, 0px) scale3d(1, 1, 1); opacity: 1;">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
+                    <img class="img-responsive"  src="images/adminpanel.png" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 2</h3>
-                        Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        Course Allocation System
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -46,11 +55,11 @@
 
             <div class="portfolio-item creative isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(582px, 0px, 0px) scale3d(1, 1, 1); opacity: 1;">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
+                    <img class="img-responsive"  src="images/portfolio/03.jpg" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 3</h3>
-                        Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        Testing
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -62,7 +71,7 @@
                     <div class="portfolio-info">
                         <h3>Portfolio Item 4</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -74,7 +83,7 @@
                     <div class="portfolio-info">
                         <h3>Portfolio Item 5</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -86,7 +95,7 @@
                     <div class="portfolio-info">
                         <h3>Portfolio Item 5</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -98,7 +107,7 @@
                     <div class="portfolio-info">
                         <h3>Portfolio Item 7</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -110,7 +119,7 @@
                     <div class="portfolio-info">
                         <h3>Portfolio Item 8</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="{{url('./name')}}" ><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -129,3 +138,4 @@
     <!--/.container-->
 </section>
 <!--/#portfolio-->
+</div>

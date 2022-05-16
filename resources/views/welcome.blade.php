@@ -31,34 +31,46 @@
 </head>
 <!--/head-->
 
-<body id="home" class="homepage">
+<body id="home" class="homepage ">
 {{--All Included Files--}}
 @include('Required/header')
 
 {{--Beginning of Hompages Directory Files--}}
+
 {{--1. Background Image--}}
 @include('HomePages/first_section')
+
 {{--2. Services Section--}}
 @include('HomePages.services')
 
 {{--3. Our Process--}}
 @include('HomePages.our_process')
+
+<!-- Our Work/Portfolio Section -->
 {{--4. our Works--}}
 @include('HomePages.our_work')
+
+<!-- This contains the Meet the team Section, but it is commented out -->
 {{--5. Meet the team--}}
-@include('HomePages.meet_the_team')
+{{--include('HomePages.meet_the_team')--}}
+
 {{--6. Fun Facts--}}
 @include('HomePages/fun_facts')
+
 {{--7. Testimonials--}}
 @include('HomePages/testimonials')
+
 {{--8. Contact Us--}}
-@include('HomePages/contact_us')
+{{--@include('HomePages/contact_us')--}}
+
 {{--End of Homepages Directory Files--}}
 
 {{--9. Footer Area--}}
 @include('Required/footer')
+
 {{--10 Links To all Scripts--}}
 @include('Required/scripts')
+
 {{--End of All Included Files--}}
 </body>
 </html>

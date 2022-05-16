@@ -2,25 +2,32 @@
 <footer id="footer" style="background-color:#171347 ">
     <div class="container p-top-30">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-3 col-sm-6 col-xs-6">
                 <a href="/."><h2 class="m-bottom-20">
                     <span class="text-primary">M4</span>
                     <span class="text-success">WEB</span>METR<span class="text-danger">IX</span>
                 </h2></a>
                 <p style="color: #fff">
-                    M4 WEBMETRIX attempts to bring the best development experience to
+                    M4 WEBMETRIX brings the best development experience to
                     clients by utilizing
                     the tools needed for having a quick and solid start in most web projects.
                     we also have proficient and  experience staffs in lot's of area's as described in
-                    our services section. <br>
-                    Our team specification is made up: Project Manager, Analyst, Ui/Ux, Graphics Designer,
-                    Front-end developer, Back-end Developer, Wordpress Developer, Software Developer,
-                    Architecture Developer, Tester etc as the need may warrant for the project or
-                    task at hand.
+                    our services section.
 
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
+                       <h3 class="widget-title m-bottom-20" style="color: #fff">Our Web Services</h3>
+                       <li><a href="{{url('/about')}}">Web Design & Development</a></li>
+                      <br>
+                      <li><a href="{{url('/Services')}}">eCommerce</a></li>
+                      <br>
+                      <li><a href="{{url('/portfolio')}}">Explainer Video Creation</a></li>
+                      <br>
+                      <li><a href="{{url('/contact')}}">Web Maintenance Service</a></li>
+                  </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
               <div class="row">
                   <div class="col-md-6">
                       <div class="single-widget f-link widget">
@@ -36,6 +43,7 @@
                           </ul>
                       </div>
                   </div>
+
                   <div class="col-md-6">
                       <div class="single-widget footer_contact widget" >
                           <h3 class="widget-title m-bottom-20" style="color: #fff">Contact</h3>

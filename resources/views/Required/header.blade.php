@@ -22,10 +22,11 @@
                 <ul class="nav navbar-nav">
                     <li class="scroll"><a href="/.">Home</a></li>
                     <li class="scroll"><a href="{{url('Services')}}">Our Services</a></li>
-                    <li class="scroll"><a href="{{url('portfolio')}}">Our Portfolio</a></li>
                     <li class="scroll"><a href="{{url('about')}}">About</a></li>
+                    <li class="scroll"><a href="{{url('portfolio')}}">Our Portfolio</a></li>
                     <li class="scroll"><a href="{{url('contact')}}">Contact</a></li>
-
+                    <li class="scroll"><a href="{{url('pricing')}}">Pricing</a></li>
+                
                 </ul>
             </div>
         </div>
